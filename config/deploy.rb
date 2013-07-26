@@ -16,10 +16,6 @@ role :app, "192.168.2.224"                          # This may be the same as yo
 
 set :user,"cloudfactory"
 
-require 'cloudfactory/recipes/base'
-require 'hirb'
-#require 'newrelic_rpm'
-#require 'new_relic/recipes'
 
 
 #role :db,  "your primary db-server here", :primary => true # This is where Rails migrations will run
