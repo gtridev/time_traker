@@ -19,3 +19,6 @@ set :branch, fetch(:branch, 'master')
 
 set :deploy_via, :remote_cache
 set :deploy_to, "~/deploy/time_traker"
+
+set :user, "cloudfactory"
+set :use_sudo, false
